@@ -371,6 +371,18 @@
 
 </ul>
         </li>
+        </li>
+        <li >
+          <a href="/ame/index.php">
+            <i class="fa fa-share"></i> <span>CRUD</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+
+
+
+        </li>
         <li>
           
             </span>
