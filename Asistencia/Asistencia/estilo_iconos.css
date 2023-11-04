@@ -1,0 +1,50 @@
+
+.icon-facebook:before{
+	
+	color:blue;
+
+	font-size: 30px;
+
+}
+
+footer
+{
+  font-size: 25px;
+
+}
+
+.icon-youtube:before{
+	
+	color:red;
+
+	font-size: 30px;
+
+}
+
+
+.icon-twitter:before{
+	
+	color:aqua;
+
+	font-size: 30px;
+
+}
+
+
+.icon-whatsapp:before{
+	
+	color:#00FF00;
+
+	font-size: 30px;
+
+}
+
+
+
+.section__titulo{
+
+
+	text-align: center;
+	font-size: 40px;
+	
+}

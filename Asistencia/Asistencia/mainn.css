@@ -1,0 +1,289 @@
+
+
+
+* {
+
+
+
+
+
+}
+
+header {
+
+width: 100%;
+
+}
+
+header nav {
+
+background:#000020;
+z-index:1000;
+max-width: 1000px;
+width:95%;
+margin:20px auto;
+
+}
+
+header nav ul{
+
+	list-style:none;
+}
+
+header nav ul li {
+
+	display:inline-block;
+   position: relative;
+
+}
+
+header nav ul li:hover {
+
+	background: #00CED1;
+}
+
+header  nav ul li  a {
+
+color:#fff;
+display:block;
+text-decoration:none;
+padding: 20px;
+
+
+
+}
+
+header nav ul li  a span{
+
+
+margin-right:10px;
+
+}
+
+header nav ul li:hover .children {
+
+display:block;
+
+
+
+}
+
+header nav ul li .children {
+
+display: none;
+background:#00CED1;
+position: absolute;
+width: 160%;
+z-index:1000;
+
+
+
+
+
+}
+
+
+header nav ul li .children li{
+
+	display:block;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+
+}
+
+header nav ul li .children li a {
+
+	display: block;
+}
+
+
+header nav ul li .children li a span{
+
+
+ float:right;
+position: relative;
+top:3px;
+margin-right:0 ;
+margin-left:15px;
+
+
+}
+
+
+
+
+header nav ul li:hover .children {
+
+display:block;
+
+
+
+}
+
+header nav ul li .children {
+
+display: none;
+background:#011826;
+position: absolute;
+width: 160%;
+z-index:1000;
+
+
+
+
+
+}
+
+
+header nav ul li .children li{
+
+	display:block;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+
+}
+
+header nav ul li .children li a {
+
+	display: block;
+}
+
+
+header nav ul li .children li a span{
+
+
+ float:right;
+position: relative;
+top:3px;
+margin-right:0 ;
+margin-left:15px;
+
+
+}
+
+
+header nav ul li .caret{
+
+position: relative;
+top:3px;
+margin-left:1px;
+margin-right:0px;
+
+
+}
+
+
+
+.slider{
+
+	
+	width: 450px;
+    height: 300px;
+
+
+overflow: hidden;
+}
+
+.slider ul {
+
+ display: flex;
+	padding: 0;
+
+width: 300%;
+
+
+animation: cambio 5s infinite alternate;
+animation-timing-function:  ease-in;
+}
+
+
+.slider li {
+
+width: 70%;
+list-style: none;
+
+
+}
+
+.slider img {
+
+width: 70%;
+
+}
+
+
+@keyframes cambio{
+
+0%{ margin-left: 0; }
+20%{ margin-left: 0;}
+
+25%{ margin-left: -100%;}
+45%{ margin-left: -100%;}
+
+50%{ margin-left: -200%;}
+70%{ margin-left: -200%;}
+
+75%{ margin-left: -300%;}
+100%{ margin-left: -300%;}
+
+
+
+
+}
+
+
+.banner{
+
+width: 500px;
+height: 100px;
+
+margin: auto;
+
+background-size: 100% 100%;
+animation: banner 10s  infinite;
+animation-direction: alternate;
+
+
+}
+
+@keyframes  banner {
+
+0%, 30% {
+
+background-image: url(ICONOS/12.jpg);
+opacity: 1;
+}
+31%, 34% {
+
+
+opacity: 0.1;
+}
+
+35%, 65% {
+
+background-image: url(ICONOS/12.jpg);
+
+opacity: 1;
+
+}
+
+66%, 69% {
+
+
+opacity: 0.1;
+
+}
+
+70%, 100% {
+
+opacity: 1;
+background-image: url(ICONOS/12.jpg);
+
+
+
+}
+
+
+
+
+}
